@@ -1,0 +1,152 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Separar o topo para pegar 20% de toda tela*/
+.topo {
+    height: 20vh;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    padding: 10px;
+  
+}
+
+/*links que estão no topo*/
+.topo a {
+    margin-right: 20px;
+    font-weight: 70%;
+    text-decoration: none;
+    color: rgba(40, 40, 40, 0.822);
+    
+}
+
+/*quando passar o mouse no link, acontece animacao*/
+.topo a:hover {
+   text-decoration: underline;
+}
+
+/*dar um espaco nos links no top para ele n ficar tao colado*/
+.topo nav {
+    margin-top: 8px;
+}
+
+/*Caracteristicas do button topo*/
+.topo button {
+    background-color: #1a73e8;
+    border: 0;
+    color: white;
+    font-weight: 70%;
+    border-radius: 5px;
+    padding: 5px;
+    height: 30px;
+    width: 100px;
+    margin-right: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/*Animacao no button topo*/
+.topo button:hover {
+    background-color: #367fdf;
+}
+
+
+/*conteudo meio do site*/
+.meio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 40vh;
+
+}
+
+/*Div da imagem*/
+.parteimagem {
+    margin-bottom: 10px;
+}
+
+
+/*Caracteristicas do botao pesquisa*/
+.pesquisa input {
+    width: 25vw;
+    height: 4vh;
+    border-radius: 30px;
+    border: 0;
+    box-shadow:  1px 1px 1px 1px rgb(149, 149, 149);
+    padding: 10px;
+    margin-bottom: 25px;
+
+}
+
+/*Botoes em baixo da barra de pesquisa*/
+.pesquisas button{
+    margin-right: 10px;
+    background-color: gb(208, 208, 208);
+    cursor: pointer;
+    height: 40px;
+    font-weight: 200;
+    color: rgb(131, 131, 131);
+    border: 0;
+}
+
+/*Animacao nos botoes abaixo da barra de pesquisa*/
+.pesquisas button:hover{ 
+    border: 1px solid black;
+ }
+
+
+ /*Footer do site*/
+ .footer {
+    background-color:rgb(246, 246, 246);
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    
+ }
+
+ .footer  hr {
+    border-color: rgba(231, 231, 231, 0.291);
+ }
+ 
+
+/*Texto*/
+ .brasil {
+    display: flex;
+    padding: 5px;
+    height: 40px;
+    font-weight: normal;
+    color: rgb(131, 131, 131);
+    align-items: center;
+    justify-content: start;
+ }
+ 
+ /*Texto span do footer*/
+ .brasil span { 
+    margin-left: 10px;
+    padding: 10px;
+ }
+
+ /*Links do footer*/
+ .links {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 10px;
+ }
+
+ .links a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 100;
+    color: rgb(133, 133, 133);
+    margin-right: 12px;
+    margin-left: 25px;
+}
+
+ .links a:hover {
+    text-decoration: underline;
+}
